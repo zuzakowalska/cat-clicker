@@ -1,9 +1,14 @@
 body {
     font-family: Tahoma, sans-serif;
+    color: #6172a0;
   }
   
   #cat-clicker-app {
     text-align: center;
+    background-color: #eff2f7;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 10px;
   }
   
   .container {
@@ -12,10 +17,15 @@ body {
     text-align: left;
     vertical-align: top;
   }
+
+  .cat-list-container {
+    margin-top: 100px;
+  }
   
   li {
     list-style-type: none;
-    margin: 20px 0;
+    margin: 20px 0 20px -40px;
+    padding-left: 0;
     cursor: pointer;
   }
   
@@ -30,10 +40,12 @@ body {
     transform: translateX(-50%);
     cursor: pointer;
   }
-  
-  #admin-btn {
-    float: left;
-    margin-left: 20px;
+
+  #admin {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: 3% auto;
   }
   
   #admin-panel {
