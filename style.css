@@ -1,0 +1,50 @@
+body {
+    font-family: Tahoma, sans-serif;
+  }
+  
+  #cat-clicker-app {
+    text-align: center;
+  }
+  
+  .container {
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  #cat {
+    text-align: center;
+    width: 70%;
+  }
+  
+  img {
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  #admin-btn {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  #admin-panel {
+  display: block;
+  }
+  
+  label {
+    font-size: 0.7em;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
